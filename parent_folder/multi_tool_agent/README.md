@@ -22,3 +22,13 @@ A description (“I help with time and weather questions”).
 Instructions (“Be helpful and answer based on weather/time tools”).
 
 A list of tools (get_weather, get_current_time) that it can use to respond to user queries.
+
+Commands:
+  api_server  Starts a FastAPI server for agents.
+  create      Creates a new app in the current folder with prepopulated agent template.
+  deploy      Deploys agent to hosted environments.
+  eval        Evaluates an agent given the eval sets.
+  run         Runs an interactive CLI for a certain agent.
+  web         Starts a FastAPI server with Web UI for agents.
+(.venv) 
+HP@DESKTO
