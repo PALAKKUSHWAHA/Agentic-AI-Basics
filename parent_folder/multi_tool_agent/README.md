@@ -31,4 +31,22 @@ Commands:
   run         Runs an interactive CLI for a certain agent.
   web         Starts a FastAPI server with Web UI for agents.
 (.venv) 
-HP@DESKTO
+
+
+google-adk[database]==0.3.0
+yfinance==0.2.56
+psutil==5.9.5
+litellm==1.66.3
+google-generativeai==0.8.5
+python-dotenv==1.1.0
+
+ADK-Commands:
+  api_server  Starts a FastAPI server for agents.
+  create      Creates a new app in the current folder with prepopulated agent template.
+  deploy      Deploys agent to hosted environments.
+  eval        Evaluates an agent given the eval sets.
+  run         Runs an interactive CLI for a certain agent.
+  web         Starts a FastAPI server with Web UI for agents.
+
+pip install google-adk
+  pip install deprecated
