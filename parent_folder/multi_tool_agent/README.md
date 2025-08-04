@@ -32,7 +32,7 @@ Commands:
   web         Starts a FastAPI server with Web UI for agents.
 (.venv) 
 
-
+PRE-REQUISITES:
 google-adk[database]==0.3.0
 yfinance==0.2.56
 psutil==5.9.5
