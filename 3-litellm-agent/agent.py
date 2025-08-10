@@ -8,6 +8,7 @@ from google.adk.models.lite_llm import LiteLlm
 model = LiteLlm(
     model="openrouter/openai/gpt-4.1",
     api_key=os.getenv("OPENROUTER_API_KEY"),
+    max_tokens=1000
 )
 
 
